@@ -1,95 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,200&display=swap" rel="stylesheet">
+  <title>Landing Page</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 </head>
-<body>
-    <div class="header">
-        <div class="header-logo">
-            abstra<strong>arts</strong>
-        </div>
-        <ul>
-            <li><a href="index.html"> home </a></li>
-            <li><a href="https://github.com/aashkadel99"> github </a></li>
-            <li><a href="about.html"> about </a></li>
-        </ul>
+
+<body class="main">
+  <div class="container header">
+    <div class="logo">Header Logo</div>
+    <ul class="links">
+      <li><a href="#">header link one</a></li>
+      <li><a href="#">header link two</a></li>
+      <li><a href="#">header link three</a></li>
+    </ul>
+  </div>
+  
+  <div class="container first">
+    <div class="intro">
+      <div><h1>This website is awesome</h1></div>
+      <div>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</div>
+      <div><button type="button" class="button">Sign up</button></div>
     </div>
-    <div class="top">
-        <div class="top-non-image">
-            <div class="top-title">
-                Abstract arts
-            </div>
-            <div class="top-text">
-                Abstract art can be painting, sculpture, photography, design, or any art form that does not objectively nor accurately represent visual reality.
-                Abstraction directly opposes figurative art and anything that directly delineates a subject or object. <strong>Sign up</strong> to learn more.
-            </div>
-            <div class="top-cta-button">
-                <a href = "https://www.youtube.com/watch?v=PLOPygVcaVE"> Sign Up </a>
-            </div>
-        </div>
-        <div class="top-image">
-            <a href="https://unsplash.com/photos/rlbG0p_nQOU"><img src="images/top-image.jpg" alt="image here"></a>
-        </div>
+    
+    <div class="intro-image">
+      <img class="image" src="images/fire.jpeg" width="600" height="auto"></img>
     </div>
-    <div class="random-information">
-        <h1> Some <em>abstract</em> pieces:</h1>
-        <div class="image-container">
-            <div class="images-and-caption">
-                <a href="https://unsplash.com/photos/cn0-hgcpoL8"><img src="images/image-1.jpg" alt="1st image"></a>
-                <p>the</p>
-            </div>
-            <div class="images-and-caption">
-                <a href="https://unsplash.com/photos/YfJ95nT8iS8"><img src="images/image-2.jpg" alt="2nd image"></a>
-                <p>earth</p>
-            </div>
-            <div class="images-and-caption">
-                <a href="https://unsplash.com/photos/qTV6c2pjbBo"><img src="images/image-3.jpg" alt="3rd image"></a>
-                <p>without</p>
-            </div>
-            <div class="images-and-caption">
-                <a href="https://unsplash.com/photos/b5HMwgoU2h4"><img src="images/image-4.jpg" alt="4th image"></a>
-                <p>art</p>
-            </div>
-            <div class="images-and-caption">
-                <a href="https://unsplash.com/photos/KNDd8LcVHDY"><img src="images/image-5.jpg" alt="5th image"></a>
-                <p>is just</p>
-            </div>
-            <div class="images-and-caption">
-                <a href="https://unsplash.com/photos/_enM9wP7S0I"><img src="images/image-6.jpg" alt="6th image"></a>
-                <p>eh</p>
-            </div>
-        </div>
+  </div>
+  
+  <div class="container second">
+    <h2>Some random information.</h2>
+    <div class="gallery">
+      <div class="gallery-entry">
+        <div class="gallery-image"><img src="images/avocado.png" alt="avocado" width="150px"></div>
+        <div class="gallery-desc">this is some subtext under an illustration or image</div>
+      </div>
+      
+      <div class="gallery-entry">
+        <div class="gallery-image"><img src="images/kangaroo.png" alt="kangaroo" width="150px"></div>
+        <div class="gallery-desc">this is some subtext under an illustration or image</div>
+      </div>
+      
+      <div class="gallery-entry">
+        <div class="gallery-image"><img src="images/mountain.png" alt="mountain" width="150px"></div>
+        <div class="gallery-desc">this is some subtext under an illustration or image</div>
+      </div>
+      
+      <div class="gallery-entry">
+        <div class="gallery-image"><img src="images/snowman.png" alt="snowman" width="150px"></div>
+        <div class="gallery-desc">this is some subtext under an illustration or image</div>
+      </div>
     </div>
-    <div class="inspiring-quote">
-        <div class="quote">
-            <p> "Abstract art is uniquely modern. It is a fundamentally romantic response to modern life - rebellious, individualistic, unconventional,
-                sensitive and irritable."
-            </p>
-        </div>
-        <p id="quoter">
-            - Robert Motherwell
-        </p>
+  </div>
+  
+  <div class="container third">
+    <div class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</div>
+    <div class="reference">-Thor, God of Thunder</div>
+  </div>
+  
+  <div class="container fourth">
+    <div class="signup">
+      <h2>Call to action! It's time!</h2>
+      <div>Sign up for our product by clicking that button right over there!</div>
     </div>
-    <div class="cta-div">
-        <div class="cta-bar">
-            <div class="cta-texts">
-                <p id = "cta-main-text"> So, what's all this fuss about?</p>
-                <p id = "cta-text">Sign up right now to know more!</p>
-            </div>
-            <div class="bottom-cta-button">
-                <a href = "https://www.youtube.com/watch?v=PLOPygVcaVE"> Sign Up </a>
-            </div>
-        </div>
+    <div class="signup-button">
+      <button type="button" class="button">Sign up</button>
     </div>
-    <div class="footer">
-        <p> Made with ♥ by <a href="https://github.com/aashkadel99"> aashish99 </a> </p>
-    </div>
+  </div>
+  
+  <div class="container footer">
+    Copyright @ The Odin Project 2021
+  </div>
 </body>
 </html>
